@@ -51,7 +51,7 @@ namespace BouncingBall
 
         private void MoveBall(object sender, EventArgs e)
         {
-            // update coordinates
+            
             ballPosX += moveStepX;
             if (
                 ballPosX < 0 ||
@@ -70,7 +70,7 @@ namespace BouncingBall
                 moveStepY = -moveStepY;
             }
 
-            // update painting
+            
             this.Refresh();
         }
     }
